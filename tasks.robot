@@ -142,7 +142,7 @@ Embed the robot screenshot to the receipt PDF file
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
 #    Get the URL from vault and Open the robot order website
-#    Confirmation dialog
+    Confirmation dialog
     Open the robot order website
     ${orders}=    Get orders
     FOR    ${row}    IN    @{orders}
